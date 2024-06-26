@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tossbtn {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.download {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 12px;
+  font-family: 'Pretendard-Regular';
+  background-color: #2a3647;
+  color: white;
+  cursor: pointer;
+}
+
+.download:hover {
+  background-color: rgb(78, 89, 104);
+}
+
+.imgBox {
+  width: 30px;
+  height: 30px;
+  right: 0;
+}
+
+.imgBox > img {
+  width: 100%;
+}
+
+.download > span {
+  font-size: 18px;
+}
+
+/* .download > i {
+  font-size: 20px;
+  color: gray;
+} */

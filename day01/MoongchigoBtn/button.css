@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.head {
+  width: fit-content;
+  height: 100vh;
+}
+
+.now {
+  font-size: 20px;
+  font-family: 'Pretendard-Regular';
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.moongchigo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  text-align: center;
+  font-family: 'Pretendard-Regular';
+}
+
+.moongchigo > div {
+  color: #666;
+  font-weight: 400;
+  padding: 10px 14px;
+  background-color: #f6f6f6;
+  border-radius: 12px;
+  cursor: pointer;
+}
