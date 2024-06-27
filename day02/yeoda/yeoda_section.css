@@ -1,91 +1,90 @@
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
-      format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 
 main {
-    width: 100vw;
-    height: 80vh;
-    background-color: #f7f7f7;
+  width: 100vw;
+  height: 90vh;
+  background-color: #f7f7f7;
+  padding: 100px;
 }
 
 section {
-    width: 100%;
-    max-width: 1080px;
-    height: 100vh;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .headFont {
-    width: 1080px;
-    max-width: 1080px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    text-align: center;
-    align-items: center;
-    font-size: 2.62rem;
-    font-weight: bold;
-    font-family: 'Pretendard-Regular';
+  width: 1080px;
+  max-width: 1080px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  align-items: center;
+  font-size: 2.62rem;
+  font-weight: bold;
+  font-family: 'Pretendard-Regular';
 }
 
 .introBox {
-    width: 1080px;
-    max-width: 1080px;
-    display: flex;
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+  width: 1080px;
+  max-width: 1080px;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .introduce {
-    width: 299px;
-    justify-content: space-between;
-    margin: 0 auto;
-    gap: 20px;
+  width: 299px;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 20px;
 }
 
 .imageBox {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 30px;
-    background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 30px;
+  background-color: white;
 }
 
 .imageBox > img {
-    object-fit: contain;
-    margin: 0 auto;
-    padding: 16px;
+  object-fit: contain;
+  margin: 0 auto;
+  padding: 16px;
 }
 
 .box {
-    width: fit-content;
-    max-width: 299px;
-    margin: 0 auto;
-    font-family: 'Pretendard-Regular';
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding-top: 30px;
-    gap: 5px;
+  width: fit-content;
+  max-width: 299px;
+  margin: 0 auto;
+  font-family: 'Pretendard-Regular';
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 5px;
 }
 
-.box > span{
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 28px;
-    font-weight: bold;
-    color: #808080;
+.box > span {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: bold;
+  color: #808080;
 }
-
 
 .box > img {
-    font-size: 10px;
-    text-align: center;
-    align-items: center;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
 }

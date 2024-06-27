@@ -1,52 +1,51 @@
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
-      format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 
 header {
-    width: 100vw;
-    max-width: 1365px;
-    height: 80px;
-    margin: 0 auto;
+  width: 100vw;
+  height: 80px;
+  margin: 0 auto;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  z-index: 1;
 }
 
 nav {
-    width: 100%;
-    max-width: 1365px;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    padding: 16px;
-    gap: 5px;
-    position: fixed;
-    font-family: 'Pretendard-Regular';
-    background-color: white;
-    padding: 20px;
-    top: 0;
-    /* border-bottom: 1px solid #e1e1e1; */
+  width: 100%;
+  max-width: 1365px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 5px;
+  font-family: 'Pretendard-Regular';
+  padding: 20px;
 }
 
 .logoImage {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .logoText {
-    font-weight: bold;
-    font-size: 1.25rem;
-    cursor: pointer;
+  font-weight: bold;
+  font-size: 1.25rem;
+  cursor: pointer;
 }
 
 .downbtn {
-    padding: 1rem 1.25rem;
-    border-radius: 50px;
-    background-color: #4287ff;
-    color: white;
-    margin-left: 12px;
+  padding: 1rem 1.25rem;
+  border-radius: 50px;
+  background-color: #4287ff;
+  color: white;
+  margin-left: 12px;
 }
-
