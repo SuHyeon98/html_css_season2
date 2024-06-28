@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  width: 100vw;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "Pretendard-Regular";
+}
+
+.megaPick {
+  width: 100%;
+  max-width: 1300px;
+  margin: o auto;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+
+.textHead {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  width: fit-content;
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.buttons > span {
+  padding: 12px 20px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+}
+
+.buttons > span:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.books {
+  width: fit-content;
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.book {
+  width: 307px;
+  height: 423px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.imageBox {
+  width: 307px;
+  height: 325px;
+  border-radius: 30px;
+  background-color: #f5f8fd;
+  position: absolute;
+  top: 30px;
+}
+
+.imageBox > img {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.bookName {
+  position: absolute;
+  bottom: 23px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book2 {
+  width: 307px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  opacity: 0.4;
+  background-color: black;
+  filter: brightness(50%);
+  /* visibility: hidden; */
+}
+
+/*.imageBox2 {
+  width: 307px;
+  height: 325px;
+  border-radius: 30px;
+  opacity: 1;
+  position: absolute;
+  background-color: white;
+  filter: brightness(50%);
+  top: 30px;
+}
+
+.imageBox2 > img {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(50%);
+  opacity: 1;
+} */
+
+.bookName2 {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.book:hover {
+  .bookName2 {
+    opacity: 1;
+  }
+}
