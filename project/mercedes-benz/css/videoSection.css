@@ -1,0 +1,79 @@
+.video {
+    scroll-snap-align: start;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.videowrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.videowrap > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titlewrap {
+    display: flex;
+    align-items: center;
+}
+
+.titlebox{
+    font-family: 'SUITE-Regular';
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+.text {
+    top: 0%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 25%;
+    left: 12%;
+    line-height: 1.5;
+}
+
+.titlebox > p{
+    color: white;
+    font-size: .9vw;
+}
+
+.titlebox > h2 {
+    font-family: 'SUITE-Regular';
+    color: white;
+    font-size: 2.5vw;
+    width: 500px;
+}
+
+.titlebox > button {
+    display: flex;
+    font-family: 'SUITE-Regular';
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 15px 60px;
+    position: absolute;
+    bottom: -15%;
+    left: -1%;
+}
+
+.titlebox > button > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    
+}
