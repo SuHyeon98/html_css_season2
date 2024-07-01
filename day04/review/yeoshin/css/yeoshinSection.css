@@ -1,0 +1,59 @@
+section {
+  z-index: 1;
+  position: relative;
+}
+
+.content {
+  width: 1024px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  margin-left: 25%;
+}
+
+.textone {
+  font-size: 62px;
+  line-height: 73px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.texttwo {
+  font-size: 34px;
+  line-height: 41px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.downbtn {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  display: flex;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid white;
+  padding: 14px 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.btn > i {
+  font-size: 2em;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
