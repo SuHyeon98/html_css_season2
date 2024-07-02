@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.videobox {
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.videoText {
+    display: flex;
+    flex-direction: column;
+}
+
+.videoText > h2 {
+    color: black;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.videoText > p {
+    color: black;
+    font-size: .9vw;
+    margin-top: 18px;
+}
+
+.iframeBox {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.iframeBox > iframe {
+    width: 100%;
+    height: 420px;
+}
