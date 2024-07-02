@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'ChosunSm';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.1/ChosunSm.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.defining {
+    font-family: 'ChosunSm';
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.99)
+    , rgba(0, 0, 0, 0)), url("/project/mercedes-benz/img/defining-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.definingwrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.definingText > h2 {
+    font-size: 3.5vw;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.definingText > p {
+    font-size: 2.2vw;
+    color: white;
+}
+
+.definingBtn {
+    margin-top: 50px;
+}
+
+.definingBtn > button {
+  font-family: "SUITE-Regular";
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding: 15px 60px;
+}
+
+.definingBtn > button > a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+.definingBtn > button:hover {
+    background-color: white;
+    color: black;
+ }
